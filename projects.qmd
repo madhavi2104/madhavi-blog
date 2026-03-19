@@ -25,7 +25,7 @@ My thesis explores whether model rankings generalise across benchmarks using Ite
 
 <div class="project-links">
 
-[Blog post](../posts/irt-model-generalization/) · [GitHub](https://github.com/madhavi2104)
+[Blog post](../posts/irt-model-generalization/) · [GitHub](https://github.com/madhavi2104/Evaluating-Model-Generalization-through-Item-Response-Theory.git)
 
 </div>
 ---

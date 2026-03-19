@@ -10,13 +10,14 @@ page-layout: full
 toc: false
 ---
 
-::: {.hero-banner}
-::: {.hero-eyebrow}
+:::: hero-banner
+::: hero-eyebrow
 ML · Quant · Data Science
 :::
 
 # Writing about data, models, and the messy bits in between.
 
 A portfolio of projects and analyses in machine learning, econometrics, and data science.
-:::
----
+::::
+
+------------------------------------------------------------------------

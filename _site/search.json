@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "posts/irt-model-generalization/index.html",
-    "href": "posts/irt-model-generalization/index.html",
-    "title": "When Do Model Rankings Hold? An IRT Perspective",
-    "section": "",
-    "text": "← back to posts\nThis is my first post."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Writing about data, models, and the messy bits in between.",
-    "section": "",
-    "text": "ML · Quant · Data Science\n\n\nWriting about data, models, and the messy bits in between.\nA portfolio of projects and analyses in machine learning, econometrics, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\nExploring whether model rankings generalise across benchmarks using Item Response Theory.\n\n\n\nMadhavi Sen\n\n\nFeb 25, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -35,10 +14,45 @@
     "text": "When Do Model Rankings Hold? An IRT Perspective\n\n\nmachine learning\n\n\nIRT\n\n\nbenchmarking\n\n\nMy thesis explores whether model rankings generalise across benchmarks using Item Response Theory. Motivated by the observation that leaderboard positions often shift dramatically depending on which benchmark is used…\n\nBlog post · GitHub"
   },
   {
-    "objectID": "projects.html#blog-post-github",
-    "href": "projects.html#blog-post-github",
-    "title": "Projects",
-    "section": "Blog post · GitHub",
-    "text": "Blog post · GitHub"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Writing about data, models, and the messy bits in between.",
+    "section": "",
+    "text": "ML · Quant · Data Science\n\n\nWriting about data, models, and the messy bits in between.\nA portfolio of projects and analyses in machine learning, econometrics, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\nExploring whether model rankings generalise across benchmarks using Item Response Theory.\n\n\n\nMadhavi Sen\n\n\nFeb 25, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Madhavi Sen, a data scientist and researcher based in Tübingen, Germany.\nI recently completed my Master’s in Quantitative Data Science Methods (Psychometrics, Econometrics and Machine Learning) at the University of Tübingen, where my thesis explored how Item Response Theory can be used to evaluate and compare vision models beyond standard accuracy metrics.\nMy work sits at the intersection of machine learning, statistical modelling, and causal inference. I enjoy finding principled ways to measure and interpret model behaviour, and I’m drawn to projects where rigorous methods meet real-world data.\nI’m currently looking for roles in data science, machine learning research, or quantitative analysis where I can apply this range of skills."
+  },
+  {
+    "objectID": "posts/irt-model-generalization/index.html",
+    "href": "posts/irt-model-generalization/index.html",
+    "title": "When Do Model Rankings Hold? An IRT Perspective",
+    "section": "",
+    "text": "← back to posts\nThis is my first post."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nMax Planck Institute — Master’s Thesis Researcher (Mar 2025 – Feb 2026)\nInvestigated rank stability of vision model accuracy across datasets using IRT as a diagnostic framework. Built training pipelines for 40+ models across 4 datasets and developed a cross-language analysis pipeline in Python and R.\nGoogle LLC — Student Research Assistant (Oct 2023 – Mar 2024)\nWorked with Dr. Jeremy Miles on rater agreement with skewed data. Designed data generation pipelines in R and analysed inter-rater statistics including Krippendorff’s Alpha, Gwet’s AC1, and ICC.\nBosch eBike Systems — Working Student (Jul 2023 – Aug 2025)\nSupported process documentation, Agile workflow harmonisation, and digitalization across product and development teams."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nM.Sc. Quantitative Data Science Methods — University of Tübingen (2022 – 2026)\nGPA: 1.61 | Thesis grade: 1.0\nCoursework: Deep Learning, Bayesian Modeling, Item Response Theory, Causal Inference, Longitudinal Data Analysis, Latent Variable Modeling, Neural Data Science\nB.Sc. Economics, Mathematics and Statistics — Mount Carmel College (2019 – 2022)\nGPA: 8.9/10"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\nLanguages & tools: Python, R, SQL, MATLAB, Stata, Git, Linux, LaTeX, Tableau\nLibraries: PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, statsmodels, HuggingFace, UMAP\nMethods: Machine Learning, Deep Learning, Bayesian Modelling, Item Response Theory, Causal Inference, Econometrics, Statistical Inference, Data Visualisation"
   }
 ]

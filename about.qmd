@@ -1,18 +1,52 @@
 ---
 title: "About"
-image: profile.jpg
 about:
-  template: jolla
+  template: solana
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://linkedin.com/in/madhavi-sen-118887205
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/madhavisen2104
 ---
 
-About this blog
+Hi, I'm Madhavi Sen, a data scientist and researcher based in Tübingen, Germany.
+
+I recently completed my Master's in Quantitative Data Science Methods (Psychometrics, Econometrics and Machine Learning) at the University of Tübingen, where my thesis explored how Item Response Theory can be used to evaluate and compare vision models beyond standard accuracy metrics.
+
+My work sits at the intersection of machine learning, statistical modelling, and causal inference. I enjoy finding principled ways to measure and interpret model behaviour, and I'm drawn to projects where rigorous methods meet real-world data.
+
+I'm currently looking for roles in data science, machine learning research, or quantitative analysis where I can apply this range of skills.
+
+------------------------------------------------------------------------
+
+## Experience
+
+**Max Planck Institute** — Master's Thesis Researcher *(Mar 2025 – Feb 2026)*\
+Investigated rank stability of vision model accuracy across datasets using IRT as a diagnostic framework. Built training pipelines for 40+ models across 4 datasets and developed a cross-language analysis pipeline in Python and R.
+
+**Google LLC** — Student Research Assistant *(Oct 2023 – Mar 2024)*\
+Worked with Dr. Jeremy Miles on rater agreement with skewed data. Designed data generation pipelines in R and analysed inter-rater statistics including Krippendorff's Alpha, Gwet's AC1, and ICC.
+
+**Bosch eBike Systems** — Working Student *(Jul 2023 – Aug 2025)*\
+Supported process documentation, Agile workflow harmonisation, and digitalization across product and development teams.
+
+------------------------------------------------------------------------
+
+## Education
+
+**M.Sc. Quantitative Data Science Methods** — University of Tübingen *(2022 – 2026)*\
+GPA: 1.61 \| Thesis grade: 1.0\
+Coursework: Deep Learning, Bayesian Modeling, Item Response Theory, Causal Inference, Longitudinal Data Analysis, Latent Variable Modeling, Neural Data Science
+
+**B.Sc. Economics, Mathematics and Statistics** — Mount Carmel College *(2019 – 2022)*\
+GPA: 8.9/10
+
+------------------------------------------------------------------------
+
+## Skills
+
+**Languages & tools:** Python, R, SQL, MATLAB, Stata, Git, Linux, LaTeX, Tableau\
+**Libraries:** PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, statsmodels, HuggingFace, UMAP\
+**Methods:** Machine Learning, Deep Learning, Bayesian Modelling, Item Response Theory, Causal Inference, Econometrics, Statistical Inference, Data Visualisation
