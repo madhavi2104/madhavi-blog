@@ -3,4 +3,9 @@ title: "When Do Model Rankings Hold? An IRT Perspective"
 author: "Madhavi Sen"
 date: "2026-02-25"
 categories: [machine learning, IRT, benchmarking]
+description: "Exploring whether model rankings generalise across benchmarks using Item Response Theory."
 ---
+
+<a href="../../index.html" class="back-to-posts">← back to posts</a>
+
+This is my first post.

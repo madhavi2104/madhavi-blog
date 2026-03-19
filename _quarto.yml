@@ -2,8 +2,6 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "Madhavi Sen"
   navbar:
     right:
@@ -12,12 +10,29 @@ website:
         href: https://github.com/madhavi2104
       - icon: linkedin
         href: https://linkedin.com/in/madhavi-sen-118887205
+    left:
+        - text: "posts"
+          href: index.qmd
+        - text: "projects"
+          href: projects.qmd
+        - text: "about"
+          href: about.qmd
+  search:
+    location: navbar
+    type: overlay
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      - flatly
+      - custom.scss
+    highlight-style: github
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    toc-title: "On this page"
+    include-after-body: category-colors.html
+    
 
 editor: visual
+
 

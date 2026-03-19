@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Madhavi Sen",
+    "title": "Writing about data, models, and the messy bits in between.",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 18, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 15, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\n\n\n\n\n\n\nFeb 25, 2026\n\n\nMadhavi Sen\n\n\n\n\n\nNo matching items"
+    "text": "ML · Quant · Data Science\n\n\nWriting about data, models, and the messy bits in between.\nA portfolio of projects and analyses in machine learning, econometrics, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\nExploring whether model rankings generalise across benchmarks using Item Response Theory.\n\n\n\nMadhavi Sen\n\n\nFeb 25, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -21,10 +21,17 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/irt-model-generalization/index.html",
+    "href": "posts/irt-model-generalization/index.html",
+    "title": "When Do Model Rankings Hold? An IRT Perspective",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "← back to posts\nThis is my first post."
+  },
+  {
+    "objectID": "posts/irt-model-generalization/index.html#back-to-posts",
+    "href": "posts/irt-model-generalization/index.html#back-to-posts",
+    "title": "When Do Model Rankings Hold? An IRT Perspective",
+    "section": "",
+    "text": "This is my first post."
   }
 ]

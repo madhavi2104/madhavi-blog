@@ -1,13 +1,21 @@
 ---
-title: "Madhavi Sen"
+title: ""
 listing:
   contents: posts
-  feed: true
+  type: grid
   sort: "date desc"
-  type: default
   categories: true
-  sort-ui: false
-  filter-ui: false
+  grid-columns: 2
 page-layout: full
-title-block-banner: true
+toc: false
+---
+
+::: {.hero-banner}
+::: {.hero-eyebrow}
+ML · Quant · Data Science
+:::
+# Writing about data, models, and the messy bits in between.
+
+A portfolio of projects and analyses in machine learning, econometrics, and data science.
+:::
 ---
