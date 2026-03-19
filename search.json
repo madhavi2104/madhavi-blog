@@ -11,7 +11,7 @@
     "href": "projects.html#when-do-model-rankings-hold-an-irt-perspective",
     "title": "Projects",
     "section": "When Do Model Rankings Hold? An IRT Perspective",
-    "text": "When Do Model Rankings Hold? An IRT Perspective\n\n\nmachine learning\n\n\nIRT\n\n\nbenchmarking\n\n\nMy thesis explores whether model rankings generalise across benchmarks using Item Response Theory. Motivated by the observation that leaderboard positions often shift dramatically depending on which benchmark is used…\n\nBlog post · GitHub"
+    "text": "When Do Model Rankings Hold? An IRT Perspective\n\n\nmachine learning\n\n\nIRT\n\n\nbenchmarking\n\n\nA large-scale study of 48 vision models across four datasets, using Item Response Theory to analyze when benchmark rankings remain stable and when they become dataset-dependent. Combined latent ability modeling with DIF, linking, test information, and PCA-based response geometry analysis.\n\nBlog post · GitHub"
   },
   {
     "objectID": "index.html",
