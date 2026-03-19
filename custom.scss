@@ -1,0 +1,373 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap');
+
+$body-bg: #f7f6f1;
+$body-color: #1a2640;
+$link-color: #185FA5;
+$font-family-sans-serif: 'Inter', sans-serif;
+$font-family-serif: 'Lora', Georgia, serif;
+
+/*-- scss:rules --*/
+
+/* ── navbar ── */
+.navbar {
+  background-color: #f7f6f1 !important;
+  border-bottom: 0.5px solid #ddd8ce;
+  font-size: 13px;
+
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-weight: 500;
+    color: #1a2640 !important;
+    font-size: 15px;
+  }
+
+  .nav-link {
+    color: #5a6a7e !important;
+    &:hover { color: #1a2640 !important; }
+  }
+}
+
+/* ── homepage hero banner ── */
+.hero-banner {
+  background: #1a2640;
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  margin-bottom: 2rem;
+
+  .hero-eyebrow p {
+    font-size: 11px;
+    color: #EF9F27 !important;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    font-family: $font-family-serif;
+    color: #f0ede6 !important;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: #8a9ab0 !important;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+/* ── listing cards ── */
+.quarto-listing .card {
+  background: #ffffff;
+  border: 0.5px solid #ddd8ce !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+
+  .card-title {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #1a2640;
+  }
+
+  .card-text {
+    font-size: 0.75rem;
+    color: #8a7e6e;
+  }
+}
+
+.quarto-grid-item .card-img-top,
+.quarto-grid-item .listing-item-img-placeholder {
+  display: none !important;
+}
+
+.quarto-grid-item .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.quarto-grid-item .listing-categories {
+  order: -1;
+}
+
+.quarto-grid-item .card-title {
+  order: 0;
+}
+
+.listing-description {
+  color: #6b6459 !important;
+  font-size: 0.8rem !important;
+}
+
+/* ── listing card category pills ── */
+.listing-category {
+  font-size: 10px !important;
+  padding: 2px 8px !important;
+  border-radius: 99px !important;
+  font-weight: 400 !important;
+  border: none !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* purple — ML / deep learning */
+.listing-category[onclick*="bWFjaGluZSUyMGxlYXJuaW5n"],
+.listing-category[onclick*="ZGVlcCUyMGxlYXJuaW5n"],
+.listing-category[onclick*="TkxQ"],
+.listing-category[onclick*="dHJhbnNmb3JtZXJz"] {
+  background: #EEEDFE !important;
+  color: #3C3489 !important;
+}
+
+/* teal — quant / econometrics */
+.listing-category[onclick*="cXVhbnQ"],
+.listing-category[onclick*="dGltZSUyMHNlcmllcw"],
+.listing-category[onclick*="ZWNvbm9tZXRyaWNz"],
+.listing-category[onclick*="SVJU"],
+.listing-category[onclick*="YmVuY2htYXJraW5n"] {
+  background: #E1F5EE !important;
+  color: #0F6E56 !important;
+}
+
+/* amber — data science / analysis */
+.listing-category[onclick*="ZGF0YSUyMHNjaWVuY2U"],
+.listing-category[onclick*="ZGF0YSUyMGFuYWx5c2lz"],
+.listing-category[onclick*="YW5hbHl0aWNz"],
+.listing-category[onclick*="RURB"] {
+  background: #FAEEDA !important;
+  color: #633806 !important;
+}
+
+/* blue — data engineering / SQL / news */
+.listing-category[onclick*="ZGF0YSUyMGVuZ2luZWVyaW5n"],
+.listing-category[onclick*="ZGF0YSUyMGVuZw"],
+.listing-category[onclick*="RHVja0RC"],
+.listing-category[onclick*="U1FM"],
+.listing-category[onclick*="bmV3cw"] {
+  background: #E6F1FB !important;
+  color: #0C447C !important;
+}
+
+/* ── sidebar category pills ── */
+.quarto-listing-category-title {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  color: #1a2640 !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.quarto-listing-category.category-default {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 4px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.quarto-listing-category.category-default .category {
+  display: inline-block !important;
+  font-size: 10px !important;
+  padding: 2px 10px !important;
+  border-radius: 99px !important;
+  border: 0.5px solid #ddd8ce !important;
+  background: #ffffff !important;
+  color: #5a6a7e !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.quarto-listing-category.category-default .category.active {
+  background: #1a2640 !important;
+  color: #f0ede6 !important;
+  border-color: #1a2640 !important;
+}
+
+.quarto-listing-category.category-default .category:hover {
+  border-color: #1a2640 !important;
+  color: #1a2640 !important;
+}
+
+/* ── post page: back button ── */
+.back-to-posts {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #5a6a7e;
+  border: 0.5px solid #ddd8ce;
+  border-radius: 99px;
+  padding: 3px 12px;
+  background: #ffffff;
+  text-decoration: none !important;
+  margin-bottom: 1.5rem;
+  &:hover {
+    color: #1a2640;
+    border-color: #1a2640;
+  }
+}
+
+/* ── post page: title area ── */
+.quarto-title-banner {
+  background: #f7f6f1 !important;
+  padding: 1.5rem 0 0 !important;
+}
+
+.quarto-title h1 {
+  font-family: $font-family-serif !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  color: #1a2640 !important;
+  line-height: 1.3 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.quarto-title .description {
+  font-size: 0.9rem !important;
+  color: #6b6459 !important;
+  font-style: italic;
+  border-left: 2px solid #ddd8ce;
+  border-radius: 0;
+  padding-left: 12px;
+  margin: 0.75rem 0 !important;
+  line-height: 1.6;
+}
+
+/* ── post page: author + date row ── */
+.quarto-title-meta {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  font-size: 12px !important;
+  color: #9a9288 !important;
+  padding: 12px 0 !important;
+  border-top: 0.5px solid #ddd8ce !important;
+  border-bottom: 0.5px solid #ddd8ce !important;
+  margin: 1rem 0 !important;
+}
+
+.quarto-title-meta-heading {
+  display: none !important;
+}
+
+.quarto-title-meta-contents p {
+  font-size: 12px !important;
+  color: #9a9288 !important;
+  margin: 0 !important;
+}
+
+/* ── post page: category pills ── */
+.quarto-title .quarto-categories {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 4px !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.quarto-title .quarto-category {
+  font-size: 10px !important;
+  padding: 2px 8px !important;
+  border-radius: 99px !important;
+  border: none !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+}
+
+.quarto-title .quarto-category a {
+  text-decoration: none !important;
+  color: inherit !important;
+  font-size: inherit !important;
+}
+
+/* ── post page: body typography ── */
+.quarto-document-content p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #2c2a25;
+}
+
+.quarto-document-content h2 {
+  font-family: $font-family-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1a2640;
+  margin-top: 2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 0.5px solid #ddd8ce;
+}
+
+.quarto-document-content h3 {
+  font-family: $font-family-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #1a2640;
+  margin-top: 1.5rem;
+}
+
+/* ── table of contents ── */
+#TOC {
+  font-size: 12px !important;
+  border-left: 0.5px solid #ddd8ce !important;
+  padding-left: 1rem !important;
+}
+
+#TOC .toc-title {
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  color: #9a9288 !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+#TOC a {
+  color: #6b6459 !important;
+  text-decoration: none !important;
+  font-size: 11px !important;
+  &:hover { color: #1a2640 !important; }
+  &.active { color: #1a2640 !important; font-weight: 500 !important; }
+}
+
+.back-to-posts {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #1a2640;
+  border: 0.5px solid darkgrey;
+  border-radius: 99px;
+  padding: 3px 12px;
+  background: #ffffff;
+  text-decoration: none !important;
+  margin-bottom: 1.25rem;
+  margin-top: 1.5rem;
+  width: fit-content;
+  &:hover {
+    background: #1a2640;
+    color: #f0ede6;
+  }
+}
+.back-to-posts,
+.back-to-posts:link,
+.back-to-posts:visited {
+  color: #1a2640 !important;
+  border: 0.5px solid darkgrey !important;
+}
+
+.back-to-posts:hover {
+  background: #1a2640 !important;
+  color: #f0ede6 !important;
+  border-color: #1a2640 !important;
+}

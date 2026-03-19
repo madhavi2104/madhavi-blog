@@ -1,0 +1,57 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  // ── color pills ──
+  const colorMap = {
+    "machine learning": { bg: "#EEEDFE", color: "#3C3489" },
+    "deep learning":    { bg: "#EEEDFE", color: "#3C3489" },
+    "nlp":              { bg: "#EEEDFE", color: "#3C3489" },
+    "transformers":     { bg: "#EEEDFE", color: "#3C3489" },
+    "irt":              { bg: "#E1F5EE", color: "#0F6E56" },
+    "benchmarking":     { bg: "#E1F5EE", color: "#0F6E56" },
+    "quant":            { bg: "#E1F5EE", color: "#0F6E56" },
+    "time series":      { bg: "#E1F5EE", color: "#0F6E56" },
+    "econometrics":     { bg: "#E1F5EE", color: "#0F6E56" },
+    "data science":     { bg: "#FAEEDA", color: "#633806" },
+    "data analysis":    { bg: "#FAEEDA", color: "#633806" },
+    "analytics":        { bg: "#FAEEDA", color: "#633806" },
+    "eda":              { bg: "#FAEEDA", color: "#633806" },
+    "data engineering": { bg: "#E6F1FB", color: "#0C447C" },
+    "data eng":         { bg: "#E6F1FB", color: "#0C447C" },
+    "duckdb":           { bg: "#E6F1FB", color: "#0C447C" },
+    "sql":              { bg: "#E6F1FB", color: "#0C447C" },
+    "news":             { bg: "#E6F1FB", color: "#0C447C" },
+  };
+
+  document.querySelectorAll(".quarto-category").forEach(el => {
+    const key = (el.textContent || el.innerText).trim().toLowerCase();
+    if (colorMap[key]) {
+      el.style.setProperty("background", colorMap[key].bg, "important");
+      el.style.setProperty("color", colorMap[key].color, "important");
+      const link = el.querySelector("a");
+      if (link) link.style.setProperty("color", colorMap[key].color, "important");
+    }
+  });
+
+  // ── reorder title block ──
+  const quartoTitle = document.querySelector(".quarto-title");
+  const categories = document.querySelector(".quarto-title .quarto-categories");
+  const descWrapper = document.querySelector(".quarto-title .description")?.parentElement;
+  const h1 = document.querySelector(".quarto-title h1");
+
+  if (quartoTitle && categories && descWrapper && h1) {
+    quartoTitle.insertBefore(categories, quartoTitle.firstChild);
+    quartoTitle.insertBefore(h1, categories.nextSibling);
+    quartoTitle.insertBefore(descWrapper, h1.nextSibling);
+  }
+
+  // ── move back button above title block ──
+  const backBtn = document.querySelector(".back-to-posts");
+  const quartoTitleBanner = document.querySelector(".quarto-title-banner");
+
+  if (backBtn && quartoTitleBanner) {
+    quartoTitleBanner.insertBefore(backBtn, quartoTitleBanner.firstChild);
+  }
+
+});
+</script>
