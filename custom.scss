@@ -371,3 +371,25 @@ $font-family-serif: 'Lora', Georgia, serif;
   color: #f0ede6 !important;
   border-color: #1a2640 !important;
 }
+.project-links a {
+  font-size: 0.85rem !important;
+  color: #5a6a7e !important;
+  text-decoration: none !important;
+  border-bottom: 0.5px solid #ddd8ce;
+  &:hover {
+    color: #1a2640 !important;
+    border-bottom-color: #1a2640;
+  }
+}
+.project-categories .quarto-category {
+  display: inline-block !important;
+  font-size: 10px !important;
+  padding: 2px 8px !important;
+  border-radius: 99px !important;
+  border: none !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  font-weight: 400 !important;
+  background: #EEEDFE;
+  color: #3C3489;
+}

@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     "news":             { bg: "#E6F1FB", color: "#0C447C" },
   };
 
-  document.querySelectorAll(".quarto-category").forEach(el => {
+  document.querySelectorAll(".quarto-category, .project-categories .quarto-category").forEach(el => {
     const key = (el.textContent || el.innerText).trim().toLowerCase();
     if (colorMap[key]) {
       el.style.setProperty("background", colorMap[key].bg, "important");

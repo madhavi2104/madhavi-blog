@@ -15,8 +15,6 @@ website:
           href: index.qmd
         - text: "projects"
           href: projects.qmd
-        - text: "about"
-          href: about.qmd
   search:
     location: navbar
     type: overlay
