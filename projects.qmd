@@ -1,0 +1,26 @@
+---
+title: "Projects"
+page-layout: full
+toc: false
+---
+
+::: {.hero-banner}
+::: {.hero-eyebrow}
+ML · Quant · Data Science
+:::
+# Projects
+
+A collection of end-to-end projects across machine learning, econometrics, and data analysis.
+:::
+
+## When Do Model Rankings Hold? An IRT Perspective
+
+<div class="quarto-category">machine learning</div>
+<div class="quarto-category">IRT</div>
+<div class="quarto-category">benchmarking</div>
+
+My thesis explores whether model rankings generalise across benchmarks using Item Response Theory. Motivated by the observation that leaderboard positions often shift dramatically depending on which benchmark is used...
+
+[Blog post](posts/irt-model-generalization/) · [GitHub](https://github.com/madhavi2104)
+---
+

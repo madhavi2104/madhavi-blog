@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "posts/irt-model-generalization/index.html",
-    "href": "posts/irt-model-generalization/index.html",
-    "title": "When Do Model Rankings Hold? An IRT Perspective",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "← back to posts\nThis is my first post."
+    "text": "ML · Quant · Data Science\n\n\n\nA collection of end-to-end projects across machine learning, econometrics, and data analysis."
+  },
+  {
+    "objectID": "projects.html#when-do-model-rankings-hold-an-irt-perspective",
+    "href": "projects.html#when-do-model-rankings-hold-an-irt-perspective",
+    "title": "Projects",
+    "section": "When Do Model Rankings Hold? An IRT Perspective",
+    "text": "When Do Model Rankings Hold? An IRT Perspective\n\n\nmachine learning\n\n\nIRT\n\n\nbenchmarking\n\n\nMy thesis explores whether model rankings generalise across benchmarks using Item Response Theory. Motivated by the observation that leaderboard positions often shift dramatically depending on which benchmark is used…\n\nBlog post · GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Writing about data, models, and the messy bits in between.",
+    "section": "",
+    "text": "ML · Quant · Data Science\n\n\nWriting about data, models, and the messy bits in between.\nA portfolio of projects and analyses in machine learning, econometrics, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\nExploring whether model rankings generalise across benchmarks using Item Response Theory.\n\n\n\nMadhavi Sen\n\n\nFeb 25, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -14,10 +28,10 @@
     "text": "About this blog"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Writing about data, models, and the messy bits in between.",
+    "objectID": "posts/irt-model-generalization/index.html",
+    "href": "posts/irt-model-generalization/index.html",
+    "title": "When Do Model Rankings Hold? An IRT Perspective",
     "section": "",
-    "text": "ML · Quant · Data Science\n\n\nWriting about data, models, and the messy bits in between.\nA portfolio of projects and analyses in machine learning, econometrics, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\nExploring whether model rankings generalise across benchmarks using Item Response Theory.\n\n\n\nMadhavi Sen\n\n\nFeb 25, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "← back to posts\nThis is my first post."
   }
 ]
