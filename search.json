@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/irt-model-generalization/index.html",
+    "href": "posts/irt-model-generalization/index.html",
+    "title": "When Do Model Rankings Hold? An IRT Perspective",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Madhavi Sen",
-    "section": "",
-    "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 15, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\n\n\n\n\n\n\nFeb 25, 2026\n\n\nMadhavi Sen\n\n\n\n\n\nNo matching items"
+    "text": "← back to posts\nThis is my first post."
   },
   {
     "objectID": "about.html",
@@ -19,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Writing about data, models, and the messy bits in between.",
+    "section": "",
+    "text": "ML · Quant · Data Science\n\n\nWriting about data, models, and the messy bits in between.\nA portfolio of projects and analyses in machine learning, econometrics, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen Do Model Rankings Hold? An IRT Perspective\n\n\n\nmachine learning\n\nIRT\n\nbenchmarking\n\n\n\nExploring whether model rankings generalise across benchmarks using Item Response Theory.\n\n\n\nMadhavi Sen\n\n\nFeb 25, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2026-03-18T21:02:41.492Z</lastmod>
+    <loc>https://madhavi2104.github.io/madhavi-blog/posts/irt-model-generalization/index.html</loc>
+    <lastmod>2026-03-19T14:38:06.984Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-03-18T21:02:41.454Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
+    <loc>https://madhavi2104.github.io/madhavi-blog/about.html</loc>
     <lastmod>2026-03-18T21:02:41.447Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/irt-model-generalization/index.html</loc>
-    <lastmod>2026-03-18T21:02:41.472Z</lastmod>
+    <loc>https://madhavi2104.github.io/madhavi-blog/index.html</loc>
+    <lastmod>2026-03-19T14:27:05.139Z</lastmod>
   </url>
 </urlset>
